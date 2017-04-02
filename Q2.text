@@ -1,0 +1,19 @@
+Q2
+javascript
+var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+var i=2;
+while (i<a.length)
+{
+  a.reverse();
+console.log(a[i].toUpperCase());
+i=i+3;
+}
+
+ruby
+ a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+i=2
+while (i<a.length)
+a.reverse!;
+puts a[i].upcase()
+i=i+3;
+end
