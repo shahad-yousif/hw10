@@ -1,0 +1,13 @@
+Q4
+function reverser(inputSentence){
+    var words = inputSentence.split(" "); 
+    var output = []; 
+    words.forEach(function(word)
+    { 
+        output.push(word.split("").reverse().join("")); 
+    });
+    return output.join(" "); 
+
+}
+
+reverser("john susan joe  ken jenny henry")
