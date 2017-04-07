@@ -1,0 +1,62 @@
+Q3
+javascript
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+var i=0;
+while(i<b.length){
+
+
+  if(b[i]%2!==0){
+
+  console.log("odd numer multiply by two=" + "   " +  b[i]*2 ) 
+}
+ if (b[i]%2===0){
+
+  console.log(  b[i]-1)
+}
+
+
+ if (b[i]%5===0){
+
+  console.log( "number to power of two=" +  "      " + Math.pow(b[i], 2))  
+}
+i=i+1;
+}
+ var j=0
+while(j<b.length){
+
+  if(b[j]%10===0){ 
+  
+   console.log(b[j]) 
+}
+  j=j+1;
+}
+
+
+
+ruby
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+ i=0
+while(i<b.length)
+  if(b[i]%2!=0)
+puts "odd numer multiply by two=   #{b[i]*2}" 
+end
+  if (b[i]%2==0)
+puts "even number minus one=       #{b[i]-1}"
+end
+def power(a,b)
+  result = (a ** b).to_i
+end
+  if (b[i]%5==0)
+puts   "number to power of two=      #{power b[i], 2}"
+end
+i=i+1
+end
+ j=0
+while(j<b.length)
+
+  if b[j]%10==0
+  
+   puts b[j]
+  end
+  j=j+1
+end
