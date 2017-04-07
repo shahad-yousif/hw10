@@ -1,0 +1,42 @@
+q6
+javascript
+var b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+var c=[];
+var j=0;
+var i=0;
+while(i<b.length && j<b.length)
+{
+  temp=10*b[j]
+  c[i]=temp-5
+  console.log("element of new array =" + "   " + c[i])
+  i=i+1;
+  j=j+1;
+}
+
+
+var k=[]
+for(j=0, i=0;j<b.length;j++,i++)
+ {
+ 
+   
+    k=b[j]+c[i]
+   
+    console.log(k)
+ }
+
+
+
+ruby
+ b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+ c=[]
+ j=0
+ i=0
+while(j<b.length)
+ c[i]=10*b[j]-5
+
+puts "element of new array =  "   "  #{c[i]}"
+  i=i+1
+  j=j+1
+end
+
+b.zip(c).map{|j, i| j + i}
